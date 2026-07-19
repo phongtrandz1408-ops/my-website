@@ -163,3 +163,9 @@ main {
 .feature-box:nth-child(odd) {
     background-color: #e9d8a6;
 }
+.product-card img:focus {
+    outline: 4px solid #ff9f1c;
+    outline-offset: 4px;
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(255, 159, 28, 0.4);
+}
